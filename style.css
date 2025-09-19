@@ -1,0 +1,26 @@
+body.dark-mode {
+  background-color: #121212;
+  color: white;
+}
+
+.card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 5px 0;
+}
+
+.animar {
+  width: 100px;
+  height: 100px;
+  background-color: lightblue;
+  transition: transform 1s;
+}
+
+.animar.mover {
+  transform: translateX(200px);
+}
+
+.destaque {
+  color: red;
+  font-weight: bold;
+}
